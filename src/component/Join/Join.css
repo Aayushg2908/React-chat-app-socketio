@@ -1,0 +1,55 @@
+.joinPage{
+    background-color: rgb(26, 24, 24);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinContainer{
+    /* height: 30%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joinContainer > img{
+    width: 10vmax;
+}
+
+.joinContainer > h1{
+    width: 25vmax;
+    color: white;
+    font-size: 2.5vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vmax;
+}
+
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    margin: 2vmax;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 43, 43);
+    color: white;
+    font-size: 1.2vmax;
+}
+
+.joinBtn{
+    width: 8vmax;
+    height: 3vmax;
+    background-color: aqua;
+    font-weight: bolder;
+    font-size: 1.2vmax;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.joinBtn:hover{
+    background-color: rgb(15, 157, 223);
+    color: white;
+}
